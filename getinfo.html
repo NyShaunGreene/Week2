@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Getting Information From Customers</title>
+  </head>
+  <body>
+    <div class="top-navigation">
+      <div class="top-navigation-left">
+        <img src="/GOAT-Logo.png" alt="" />
+        <div class="top-navigation-links">
+          <a href="/index.html">Home</a>
+        </div>
+      </div>
+    </div>
+    <div class="landingpage-body">
+      <form action="/action_page.php" method="post">
+        <label for="fname">Name:</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          value=""
+          required
+        /><br /><br />
+        <label for="email">Email</label> <br />
+        <input
+          type="text"
+          id="email"
+          name="emial"
+          value=""
+          required
+        /><br /><br />
+        <label for="Message">Message:</label><br /><br />
+        <textarea name="Message" id="Message" cols="50" rows="5"></textarea
+        ><br /><br />
+        <label for="Priority">Priority:</label><br /><br />
+        <select name="Priority" id="Priority">
+          <option value="High">High</option>
+          <option value="Normal">Normal</option>
+          <option value="Low">Low</option>
+        </select>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+
+  <div class="footer">
+    <p>GOAT™ ©2022 <button>Learn More</button></p>
+  </div>
+</html>
